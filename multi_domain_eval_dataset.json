@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "total_examples": 100,
+    "domain_distribution": {
+      "technical": 25,
+      "medical": 25,
+      "financial": 25,
+      "general": 25
+    },
+    "creation_date": "2025-06-20T19:19:37.156683",
+    "description": "Evaluation set for multi-domain Q&A, separate from main dataset. Each domain targets 25 examples. Each example contains \"User query: [question]\\nDomain: [domain]\".",
+    "domains": {
+      "technical": "Programming and software development questions from OpenHermes, Dolly, Stack Exchange, Code Alpaca, and Stack Overflow datasets",
+      "medical": "Medical and health-related questions from PubMed QA and medical datasets",
+      "financial": "Financial and investment questions from financial QA datasets",
+      "general": "General knowledge questions from SQuAD and similar QA datasets"
+    },
+    "sources_attempted": {
+      "technical": [
+        "teknium/OpenHermes-2.5",
+        "databricks/databricks-dolly-15k",
+        "ArmelR/stack-exchange-instructions",
+        "HuggingFaceH4/CodeAlpaca_20k",
+        "pacovaldez/stackoverflow-questions",
+        "koutch/stackoverflow_python"
+      ],
+      "medical": [
+        "pubmed_qa",
+        "medalpaca/medical_meadow_pubmed_causal",
+        "lavita/medical-qa-datasets"
+      ],
+      "financial": [
+        "ChanceFocus/flare-finqa",
+        "sujet-ai/Sujet-Finance-Instruct-177k",
+        "gbharti/finance-alpaca",
+        "FinGPT/fingpt-finqa",
+        "pauri32/fiqa-2018"
+      ],
+      "general": [
+        "squad",
+        "squad_v2",
+        "rajpurkar/squad_v1",
+        "microsoft/ms_marco",
+        "natural_questions"
+      ]
+    }
+  },
+  "data": [
+    {
+      "text": "User query: Is acquisition of conditioned eyeblink responses modulated by cerebellar tDCS?\nDomain: medical"
+    },
+    {
+      "text": "User query: Explain cryptocurrency volatility.\nDomain: financial"
+    },
+    {
+      "text": "User query: Can I claim a tax deduction for working from home as an employee? I work there 90% of the time\nDomain: financial"
+    },
+    {
+      "text": "User query: What artist did Beyonce duet with in the single, \"Deja Vu''?\nDomain: general"
+    },
+    {
+      "text": "User query: Build a neural network in TensorFlow which can be used to predict whether a customer will buy a product or not.\nDomain: technical"
+    },
+    {
+      "text": "User query: Develop an algorithm for finding the longest consecutive sequence of 1s in an integer array.\nDomain: technical"
+    },
+    {
+      "text": "User query: Does atomoxetine reduce hyperactive/impulsive behaviours in neurokinin-1 receptor 'knockout ' mice?\nDomain: medical"
+    },
+    {
+      "text": "User query: What did Chopin add to the modern dance of his era?\nDomain: general"
+    },
+    {
+      "text": "User query: Is catechol-O-methyltransferase Val158Met polymorphism associated with increased risk of multiple uterine leiomyomas either positive or negative for MED12 exon 2 mutations?\nDomain: medical"
+    },
+    {
+      "text": "User query: In what year did Notre Dame have its earliest undergraduate that was female?\nDomain: general"
+    },
+    {
+      "text": "User query: Why would a company like Apple be buying back its own shares?\nDomain: financial"
+    },
+    {
+      "text": "User query: What is a bond in finance?\nDomain: financial"
+    },
+    {
+      "text": "User query: Live in Florida & work remote for a New York company. Do I owe NY state income tax?\nDomain: financial"
+    },
+    {
+      "text": "User query: Does the BCL11A-XL expression predict relapse in squamous cell carcinoma and large cell carcinoma?\nDomain: medical"
+    },
+    {
+      "text": "User query: Does viral challenge reveal further evidence of skin-deep resilience in African Americans from disadvantaged backgrounds?\nDomain: medical"
+    },
+    {
+      "text": "User query: Chopin's chord progressions are similar in style to what other composer?\nDomain: general"
+    },
+    {
+      "text": "User query: How did the USGS rate the earthquake?\nDomain: general"
+    },
+    {
+      "text": "User query: Is mitochondrial DNA copy number associated with diagnosis and prognosis of head and neck cancer?\nDomain: medical"
+    },
+    {
+      "text": "User query: Who is revealed as the true ruler of Twilight Realm?\nDomain: general"
+    },
+    {
+      "text": "User query: How many people were killed in Beichuan County?\nDomain: general"
+    },
+    {
+      "text": "User query: What should I do with the stock from my Employee Stock Purchase Plan?\nDomain: financial"
+    },
+    {
+      "text": "User query: Investing small amounts at regular intervals while minimizing fees?\nDomain: financial"
+    },
+    {
+      "text": "User query: Create a JavaScript function to check if a given number is an even number or not.\nDomain: technical"
+    },
+    {
+      "text": "User query: Does docosahexaenoic acid induce M2 macrophage polarization through peroxisome proliferator-activated receptor γ activation?\nDomain: medical"
+    },
+    {
+      "text": "User query: Generate an optimized CSS snippet for flex-box grid layout in a page.\nDomain: technical"
+    },
+    {
+      "text": "User query: Beyonce opened a cosmetology center in what location?\nDomain: general"
+    },
+    {
+      "text": "User query: Rate of change of beta\nDomain: financial"
+    },
+    {
+      "text": "User query: US Taxes - Handling Capital Losses from previous years with current capital gains\nDomain: financial"
+    },
+    {
+      "text": "User query: Is [ `` Second look '' after laparoscopic myomectomy -- that a prevention of postoperative adhesions ]?\nDomain: medical"
+    },
+    {
+      "text": "User query: Do endometriotic ovarian cysts negatively affect the rate of spontaneous ovulation?\nDomain: medical"
+    },
+    {
+      "text": "User query: Develop a Java program that finds the number of the occurrences of a letter in a string.\nDomain: technical"
+    },
+    {
+      "text": "User query: Write a function in PHP to check a given string for palindromic properties.\nDomain: technical"
+    },
+    {
+      "text": "User query: Construct a query to retrieve the id, name, and age of all users.\nDomain: technical"
+    },
+    {
+      "text": "User query: Write a SQL query to find the average number of orders per customer from the customers and orders tables.\nDomain: technical"
+    },
+    {
+      "text": "User query: What can happen if people are exposed to antibiotics at a young age?\nDomain: general"
+    },
+    {
+      "text": "User query: Design an SQL query to list the name and address of customers who have placed an order since last month.\nDomain: technical"
+    },
+    {
+      "text": "User query: Does co-Transplantation of Skin-Derived Precursors and Collagen Sponge facilitate Diabetic Wound Healing by Promoting Local Vascular Regeneration?\nDomain: medical"
+    },
+    {
+      "text": "User query: Develop an algorithm in Python that takes a list of strings as an input and sorts them alphabetically.\nDomain: technical"
+    },
+    {
+      "text": "User query: How strong was the May 25 aftershock in Qingchuan county?\nDomain: general"
+    },
+    {
+      "text": "User query: Is variation in mortality among populations higher for pymetrozine than for imidacloprid and spiromesifen in Trialeurodes vaporariorum in greenhouses in Finland?\nDomain: medical"
+    },
+    {
+      "text": "User query: Where did Twilight Princess place among Wii titles according to IGN?\nDomain: general"
+    },
+    {
+      "text": "User query: What did the Ming dynasty create?\nDomain: general"
+    },
+    {
+      "text": "User query: What elements of group existence, other than people themselves, can be targets of genocide?\nDomain: general"
+    },
+    {
+      "text": "User query: Does sUMOylation of Grb2 enhance the ERK activity by increasing its binding with Sos1?\nDomain: medical"
+    },
+    {
+      "text": "User query: Can saving/investing 15% of your income starting age 25, likely make you a millionaire?\nDomain: financial"
+    },
+    {
+      "text": "User query: When did Beyoncé get married?\nDomain: general"
+    },
+    {
+      "text": "User query: Is integrin β-8 , but not β-5 or -6 , protein expression increased in livers of children with biliary atresia?\nDomain: medical"
+    },
+    {
+      "text": "User query: What are 3 other common forms of bad antibiotic practices?\nDomain: general"
+    },
+    {
+      "text": "User query: When did The Mamas make their debut?\nDomain: general"
+    },
+    {
+      "text": "User query: Does wogonin modulate hydroperoxide-induced apoptosis via PI3K/Akt pathway in retinal pigment epithelium cells?\nDomain: medical"
+    },
+    {
+      "text": "User query: Why do many British companies offer a scrip dividend option in lieu of cash?\nDomain: financial"
+    },
+    {
+      "text": "User query: What song did she release in 2013 in response to a speech?\nDomain: general"
+    },
+    {
+      "text": "User query: Create a basic chatbot using Rasa that can answer questions about general programming topics such as variables, loops, and functions.\nDomain: technical"
+    },
+    {
+      "text": "User query: Write a PHP program to retrieve data from an Oracle database table.\nDomain: technical"
+    },
+    {
+      "text": "User query: What happens to an ETF if one of the companies in the ETF gets aquired?\nDomain: financial"
+    },
+    {
+      "text": "User query: Who edited the Polish \"National Edition\" of Chopin's works?\nDomain: general"
+    },
+    {
+      "text": "User query: Create a web scraper in Python that can extract hotel reviews from TripAdvisor.\nDomain: technical"
+    },
+    {
+      "text": "User query: How would you optimize the following code to run faster?\nDomain: technical"
+    },
+    {
+      "text": "User query: Disputing Items to Improve Credit Report\nDomain: financial"
+    },
+    {
+      "text": "User query: What could a malicious party potentially achieve by having *just* a name, account number, and sort code?\nDomain: financial"
+    },
+    {
+      "text": "User query: Generate an React component that renders a button with a specified text and an onClick event handler.\nDomain: technical"
+    },
+    {
+      "text": "User query: When did Jay Z and Beyoncé become the first music couple worth over a billion dollars?\nDomain: general"
+    },
+    {
+      "text": "User query: Are human enteroviruses the cause of neurological impairments in children at the Korle-Bu Teaching Hospital?\nDomain: medical"
+    },
+    {
+      "text": "User query: How to fix Finance::Quote to pull quotes in GnuCash\nDomain: financial"
+    },
+    {
+      "text": "User query: Does enteral nutrition rapidly reverse total parenteral nutrition-induced impairment of hepatic immunity in a murine model?\nDomain: medical"
+    },
+    {
+      "text": "User query: Close to retirement & we may move within 7 years. Should we re-finance our mortgage, or not?\nDomain: financial"
+    },
+    {
+      "text": "User query: Develop a program to make an API call to get the current stock price of Intel Corporation and display the data.\nDomain: technical"
+    },
+    {
+      "text": "User query: How to approach building credit without a credit card\nDomain: financial"
+    },
+    {
+      "text": "User query: Generate an HTML page that displays the 10 most recently commented articles from a database.\nDomain: technical"
+    },
+    {
+      "text": "User query: Which English band also composed a song for the film?\nDomain: general"
+    },
+    {
+      "text": "User query: Beyonce's group changed their name to Destiny's Child in what year?\nDomain: general"
+    },
+    {
+      "text": "User query: New company doesn't allow 401k deposits for 6 months, what to do with money I used to deposit?\nDomain: financial"
+    },
+    {
+      "text": "User query: Create a SQL query to get the employee information from the following table. The query should return the employee name, age, and address of each employee.\nDomain: technical"
+    },
+    {
+      "text": "User query: Why deep in the money options have very low liquidity\nDomain: financial"
+    },
+    {
+      "text": "User query: Is [ The common C677T polymorphism in the methylenetetrahydrofolate reductase gene associated with neural tube defects and preeclampsia ]?\nDomain: medical"
+    },
+    {
+      "text": "User query: What part of his body did Craig injure?\nDomain: general"
+    },
+    {
+      "text": "User query: What did the Science Hall at Notre Dame come to be known as?\nDomain: general"
+    },
+    {
+      "text": "User query: Website for managing personal cash inflow and outflow, applicable to India?\nDomain: financial"
+    },
+    {
+      "text": "User query: Create a Java program for validating credit card numbers.\nDomain: technical"
+    },
+    {
+      "text": "User query: Do novel cardiovascular risk factors completely explain the higher prevalence of peripheral arterial disease among African Americans . The San Diego Population Study?\nDomain: medical"
+    },
+    {
+      "text": "User query: 1099 versus corporation to corporation for payments?\nDomain: financial"
+    },
+    {
+      "text": "User query: When is Cash Value Life Insurance a good or bad idea?\nDomain: financial"
+    },
+    {
+      "text": "User query: Do aRDS Subphenotypes Respond Differently to Randomized Fluid Management Strategy?\nDomain: medical"
+    },
+    {
+      "text": "User query: What version of Frédéric's birth name did he begin using after arriving in France?\nDomain: general"
+    },
+    {
+      "text": "User query: Is it normal to think of money in different “contexts”?\nDomain: financial"
+    },
+    {
+      "text": "User query: What is the condition for third parties using the dock connector?\nDomain: general"
+    },
+    {
+      "text": "User query: Create a Node.js program to non-destructively update a given object with a set of key-value pairs.\nDomain: technical"
+    },
+    {
+      "text": "User query: Create a HTML page to display a table containing 1000 entries. Each entry should include an ID and a description.\nDomain: technical"
+    },
+    {
+      "text": "User query: Does visual gene-network analysis reveal the cancer gene co-expression in human endometrial cancer?\nDomain: medical"
+    },
+    {
+      "text": "User query: Fees aside, what factors could account for performance differences between U.S. large-cap index ETFs?\nDomain: financial"
+    },
+    {
+      "text": "User query: Do soft-tissue response rate to chin skeletal advancement in patients with lower facial burn scar?\nDomain: medical"
+    },
+    {
+      "text": "User query: Create a program that prints a Pascal's triangle with the given number of rows.\nDomain: technical"
+    },
+    {
+      "text": "User query: Generate a java program that prints the prime numbers between 2 and 50.\nDomain: technical"
+    },
+    {
+      "text": "User query: Does cFTR potentiator therapy ameliorate impaired insulin secretion in CF patients with a gating mutation?\nDomain: medical"
+    },
+    {
+      "text": "User query: Is hospital readmission associated with poor survival after esophagectomy for esophageal cancer?\nDomain: medical"
+    },
+    {
+      "text": "User query: Is l-NMMA ( a nitric oxide synthase inhibitor ) effective in the treatment of cardiogenic shock?\nDomain: medical"
+    },
+    {
+      "text": "User query: Create a function which finds the maximum profit for a given stock price data over a given period.\nDomain: technical"
+    },
+    {
+      "text": "User query: Generate a code for sorting an array of integers.\nDomain: technical"
+    },
+    {
+      "text": "User query: Does the new generation synthetic reconstituted surfactant CHF5633 suppress LPS-induced cytokine responses in human neonatal monocytes?\nDomain: medical"
+    },
+    {
+      "text": "User query: Tax implications of restricted stock units\nDomain: financial"
+    }
+  ]
+}
